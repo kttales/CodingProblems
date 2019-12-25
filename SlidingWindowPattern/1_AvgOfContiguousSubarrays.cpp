@@ -9,6 +9,8 @@ class ArrayAvg
 {
 public:
     //Brute force solution
+    //Time Complexity O(N * k)
+    //Space Complexity O(1)
     static vector<double> cal_avg(const vector<int> &vec, int k)
     {
         int size = vec.size();
@@ -35,6 +37,8 @@ public:
     }
 
     //Efficient solution
+    //Time Complexity O(N)
+    //Space Complexity O(1)
     static vector<double> cal_avg_eff(const vector<int> &vec, int k)
     {
         int size = vec.size();
